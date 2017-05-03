@@ -13,10 +13,10 @@
     });
 
     // Highlight the top nav as scrolling occurs
-    $('body').scrollspy({
-        target: '#mainNav',
-        offset: 54
-    });
+    // $('body').scrollspy({
+    //     target: '#mainNav',
+    //     offset: 54
+    // });
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse>ul>li>a').click(function() {
@@ -28,7 +28,7 @@
         if ($("#mainNav").offset().top > 100) {
             $("#mainNav").addClass("navbar-shrink");
         } else {
-            $("#mainNav").removeClass("navbar-shrink");
+            // $("#mainNav").removeClass("navbar-shrink");
         }
     });
 
